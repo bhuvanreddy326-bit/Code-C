@@ -1,0 +1,13 @@
+Program-8 Factorial of a Number
+#include <stdio.h>
+int main()
+{
+    int n, i;
+    int fact = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    for(i = 1; i <= n; i++)
+        fact *= i;
+    printf("Factorial = %llu\n", fact);
+    return 0;
+}
